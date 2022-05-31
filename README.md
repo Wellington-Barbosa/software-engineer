@@ -20,13 +20,21 @@ Criar uma aplicação de cadastro de pedidos de compra, a partir de uma modelage
 A modelagem inicial para a implementação solução é a seguinte:
 
 <b>NumeroPedido	<i>(int)
+
 <b>NomeCliente	<i>(varchar(100))
+
 <b>CPF			<i>(char(11))
+
 <b>Email			<i>(nchar(10))
+
 <b>DataPedido	<i>(smalldatetime)
+
 <b>CodigoBarras	<i>(varchar(20))
+
 <b>NomeProduto	<i>(varchar(100))
+
 <b>ValorUnitario	<i>(money)
+
 <b>Quantidade	<i>(int)
 
 Deve-se alterar esta modelagem para que a mesma cumpra com as três primeiras formas normais.
